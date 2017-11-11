@@ -6,12 +6,16 @@ import { FormsModule }   from '@angular/forms';   // <-- Import declaration
 import { AppComponent } from './app.component';
 import { MyCounterComponent } from './my-counter/my-counter.component';
 import { MySecondCounterComponent } from './my-second-counter/my-second-counter.component';
+import { ContactOverviewComponent } from './contact-overview/contact-overview.component';
+import { ContactEditComponent } from './contact-edit/contact-edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyCounterComponent,
-    MySecondCounterComponent
+    MySecondCounterComponent,
+    ContactOverviewComponent,
+    ContactEditComponent
   ],
   imports: [
     BrowserModule,
